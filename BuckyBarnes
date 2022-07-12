@@ -1,0 +1,74 @@
+## Find the changes I made in the big project (files: big_poject1.zip vs big_poject2.zip)---------------------------------------------------------------
+
+7c7,8
+<  }
+\ No newline at end of file
+---
+>  }
+>
+Common subdirectories: big_project/chapters and big_project2/chapters
+Common subdirectories: big_project/images and big_project2/images
+diff big_project/title.tex big_project2/title.tex
+6c6
+< {\Huge Anna Pryslopska}\\
+---
+> {\Huge Anna Prysłopska}\\
+
+
+## How many times does the word “verhalten” appear in the files corpus1.txt, corpus2.txt, and corpus3.txt?-------------------------------------------------
+
+Corpus1.txt:90
+Corpus2.txt:145
+Corpus3.txt:146
+
+
+## What are all the instances where the whole word “Berlin” appears in these 3 files? ------------------------------------------------------------------------
+
+Corpus1.txt: FDP-Wirtschaftsminister Martin Zeil, immerhin Seehofers Stellvertreter, forderte Schaeffler auf, zunächst die Hausaufgaben zu erledigen. Daraufhin stauchte ihn Seehofer zusammen. FDP-Landtagsfraktionschef Thomas Hacker wiederum warf dem CSU-Chef "affiges" <B>Verhalten vor, weil</> er der von der FDP gestellten Wirtschaftsstaatssekretärin eine Delegationsreise nach Südamerika verbieten wollte. Mit Westerwelles Wutausbruch hat der Dauerzoff die FDP-Chefetage in Berlin erreicht. (jam) (HMP09/AUG.00552 Hamburger Morgenpost, 06.08.2009, S. 4; "Affiges Verhalten" Krach zwischen der CSU und FDP)
+Corpus1.txt:Nach Parteichef Franz Müntefering sprachen sich auch andere Sozialdemokraten für den ehemaligen stellvertretenden SPD-Bundesvorsitzenden Clement aus. Clement wird parteischädigendes <B>Verhalten vorgeworfen, weil</> er kurz vor der hessischen Landtagswahl im Januar vor einer Stimmabgabe für SPD-Spitzenkandidatin Andrea Ypsilanti gewarnt hatte. Erwartet wird, dass die dreiköpfige Bundesschiedskommission heute in Berlin keinen SPD-Ausschluss gegen den 68-Jährigen beschließt.
+Corpus1.txt:Clement wird parteischädigendes <B>Verhalten vorgeworfen, weil</> er kurz vor der hessischen Landtagswahl im Januar vor einer Stimmabgabe für SPD-Spitzenkandidatin Andrea Ypsilanti gewarnt hatte. Erwartet wird, dass die dreiköpfige Bundesschiedskommission heute in Berlin keinen SPD-Ausschluss gegen den 68-Jährigen beschließt.
+Corpus1.txt: Wegen seiner SPD-kritischen Äußerungen im hessischen Landtagswahlkampf im vergangenen Januar erteilte ihm die Bundesschiedskommission in Berlin lediglich eine Rüge, wie SPD-Sprecher Stefan Giffeler bestätigte. Die SPD-Schiedskommission hatte in letzter Instanz über einen Parteiausschluss beraten. Dem 68-Jährigen wird parteischädigendes <B>Verhalten vorgeworfen, weil</> er kurz vor der hessischen Landtagswahl vor einer Stimmabgabe für die SPD-Spitzenkandidatin Andrea Ypsilanti wegen ihres energiepolitischen Kurses gewarnt hatte. Die Spruchkammer des nordrhein-westfälischen Landesverbands hatte deshalb im Juli den Ausschluss empfohlen.
+Corpus1.txt:* Berlin (ap). Mit Skepsis und Ablehnung hat die SPD auf neue Pläne von Bundesinnenminister Wolfgang Schäuble zur Online-Durchsuchung von Computern reagiert. In der Opposition wurden dem CDU-Politiker am Mittwoch Tricks, Gaunereien und widersprüchliches <B>Verhalten vorgeworfen, weil</> künftig auch gefälschte amtliche E-Mails eingesetzt werden sollen.
+Corpus1.txt: Berlin reagierte gar nicht - weder mit abgesagten Gipfeln noch mit Entschuldigungs-Forderungen.
+Corpus2.txt:Früher musste er ja noch gute Miene zum bösen Spiel machen, sonst hätten sie ihm seine ganzen Lügen zurück in den Mund gestopft: die "Arm, aber sexy"-Lüge, die "Aufregende Stadt"-Lüge, die "Die Off-Kultur ist unser größtes Kapital"-Lüge, die "Jugend der Welt"-Lüge, die Tourismuslüge, all den ganzen Schmu. Wowereit schüttelt sich vor Ekel. Unglaublich, was einem Politiker zugemutet wird, nur weil er sich opportun <B>verhalten muss, um</> Wahlen zu gewinnen. Gesprächstermine mit Menschen (so musste er sie damals zumindest offiziell noch nennen), bei denen er wegen der verlausten Dreads oft nicht wusste, wo vorne und wo hinten war. Manchmal sogar während wichtiger Modenschauen, der Berlinale oder der Bread & Butter. (T12/FEB.01818 die tageszeitung, 13.02.2012, S. 23; Endlich eine Subkultur, um die man Berlin selbst in Nordkorea beneidet)
+Corpus2.txt:Antwort von Trojanow: "Nein - wegen POST-Strukturalismus!" Und, wo wir schon dabei sind, hier noch der dritte heitere Moment des Abends: Bei der amerikanischen Botschaft in Berlin wurde Trojanow die Auskunft ausgerechnet mit dem Verweis auf "privacy laws" verweigert.)
+Corpus3.txt:Früher musste er ja noch gute Miene zum bösen Spiel machen, sonst hätten sie ihm seine ganzen Lügen zurück in den Mund gestopft: die "Arm, aber sexy"-Lüge, die "Aufregende Stadt"-Lüge, die "Die Off-Kultur ist unser größtes Kapital"-Lüge, die "Jugend der Welt"-Lüge, die Tourismuslüge, all den ganzen Schmu. Wowereit schüttelt sich vor Ekel. Unglaublich, was einem Politiker zugemutet wird, nur weil er sich opportun <B>verhalten muss, um</> Wahlen zu gewinnen. Gesprächstermine mit Menschen (so musste er sie damals zumindest offiziell noch nennen), bei denen er wegen der verlausten Dreads oft nicht wusste, wo vorne und wo hinten war. Manchmal sogar während wichtiger Modenschauen, der Berlinale oder der Bread & Butter. (T12/FEB.01818 die tageszeitung, 13.02.2012, S. 23; Endlich eine Subkultur, um die man Berlin selbst in Nordkorea beneidet)
+Corpus3.txt:Antwort von Trojanow: "Nein - wegen POST-Strukturalismus!" Und, wo wir schon dabei sind, hier noch der dritte heitere Moment des Abends: Bei der amerikanischen Botschaft in Berlin wurde Trojanow die Auskunft ausgerechnet mit dem Verweis auf "privacy laws" verweigert.)
+
+
+
+## What are the differences between corpus2.txt and corpus3.txt?---------------
+
+< Die Geschichte vom Eisbärbaby und dem Klimawandel Verhaltens-Änderung Überleben mit der Huckepack-Taktik
+---
+> Die Geschichte vom Eisbär-Baby und dem Klimawandel Verhaltens-Änderung Überleben mit der Huckepack-Taktik
+430a431,433
+>  Dabei nutzen in Ägypten heute 17 Millionen Menschen das Internet, und fast ein Drittel von ihnen - 5 Millionen - ist bei Facebook angemeldet.
+> Heute werden die Demonstrationen über das Internet nicht nur organisiert, sondern auch orchestriert. Kaum war die Internetsperre aufgehoben, kursierten schon wieder E-Mails mit Ratschlägen, wie man sich auf Demonstrationen <B>verhalten sollte, um</> keine Eskalation zu provozieren. Und auch wenn sich der Protest längst verselbstständigt hat, bleibt etwa Facebook doch ein wichtiger Gradmesser für die weitere Entwicklung. An der Popularität seines Profils lässt sich ablesen, wie beliebt der Oppositionspolitiker Mohammed al-Baradei derzeit ist. (T11/FEB.00754 die tageszeitung, 05.02.2011, S. 10; Wir sind alle Khaled Said)
+>
+582,584d584
+< Die ganzen "Skandälchen" rund um den Sturz des Bundespräsidenten Wulff ließen es vermuten: da reitet einer jeden halblegal hinkenden Gaul, um sich zu bereichern. Mit den Vorgängen bei der Vorstellung des Buches seiner Frau wird diese Vermutung jetzt zur Gewissheit: Jeder miese Trick ist recht, um das Hartz-IV-Präsidentengehalt aufzubessern. Besonders verwerflich ist die mediengerechte Aufbereitung der Nuttenvermutung: Da <B>verhält</> sich jemand <B>nuttig, um</> genau diesen Netzblödsinn zu widerlegen. Am Ende bleibt das Wissen: Die Wulffs waren und sind kleinhäuslerische, auch etwas kurzsichtige und daher unbeliebte Egomanen. Michael Maresch, München (HMP12/SEP.01555 Hamburger Morgenpost, 18.09.2012, S. 23; LESERBRIEFE)
+<
+<
+623c623
+< Der 32-jährige Wiggins verteidigte auf der Königsetappe über zwei Berge der Ehrenkategorie und zwei der ersten Kategorie sein Gelbes Trikot wieder unter Mithilfe seines Edelhelfers Christopher Froome, der sich diesmal voll und ganz in den Dienst des Sky-Kapitäns stellte und sich keinen Querschuss wie in den Alpen erlaubte. Über die 197 Kilometer von Pau nach Bagnčres-de-Luchon hatte Wiggins zumeist alles im Griff, lediglich ein Angriff des Italieners Vincenzo Nibali brachte ihn kurz in Bedrängnis.
+---
+> Der 32-jährige Wiggins verteidigte auf der Königsetappe über zwei Berge der Ehrenkategorie und zwei der ersten Kategorie sein Gelbes Trikot wieder unter Mithilfe seines Edelhelfers Christopher Froome, der sich diesmal voll und ganz in den Dienst des Sky-Kapitäns stellte und sich keinen Querschuss wie in den Alpen erlaubte. Über die 197 Kilometer von Pau nach Bagnères-de-Luchon hatte Wiggins zumeist alles im Griff, lediglich ein Angriff des Italieners Vincenzo Nibali brachte ihn kurz in Bedrängnis.
+635c635
+< Der 32-jährige Wiggins verteidigte auf der Königsetappe über zwei Berge der Ehrenkategorie und zwei der ersten Kategorie sein Gelbes Trikot wieder unter Mithilfe seines Edelhelfers Christopher Froome, der sich diesmal voll und ganz in den Dienst des Sky-Kapitäns stellte. Über die 197 Kilometer von Pau nach Bagnčres-de-Luchon hatte Wiggins zumeist alles im Griff, lediglich ein Angriff des Italieners Vincenzo Nibali brachte ihn kurz ins Schwitzen.
+---
+> Der 32-jährige Wiggins verteidigte auf der Königsetappe über zwei Berge der Ehrenkategorie und zwei der ersten Kategorie sein Gelbes Trikot wieder unter Mithilfe seines Edelhelfers Christopher Froome, der sich diesmal voll und ganz in den Dienst des Sky-Kapitäns stellte. Über die 197 Kilometer von Pau nach Bagnères-de-Luchon hatte Wiggins zumeist alles im Griff, lediglich ein Angriff des Italieners Vincenzo Nibali brachte ihn kurz ins Schwitzen.
+740c740
+<  Ein wenig erinnert das an die Künstler-Bohčme aus der Zeit um die vorletzte Jahrhundertwende - eine Epoche, die Dinda interessiert. Für das Kunstprojekt "Ego's Schiele" inszenierte er sich kürzlich selbst in Anlehnung an den expressionistischen Maler.
+---
+>  Ein wenig erinnert das an die Künstler-Bohème aus der Zeit um die vorletzte Jahrhundertwende - eine Epoche, die Dinda interessiert. Für das Kunstprojekt "Ego's Schiele" inszenierte er sich kürzlich selbst in Anlehnung an den expressionistischen Maler.
+916c916
+< Im Vorkampf, der bereits um 17.30 Uhr in der Jahnhalle beginnt, erwartet die WKG-Zweite den ASV Boden. Wenn alle Wettkämpfer an Bord sind, dürfte sich ein spannendes Duell entwickeln. (RHZ13/NOV.35126 Rhein-Zeitung, 30.11.2013, S. 27; Erstmals in dieser Saison in Bestbesetzung)
+---
+> Im Vorkampf, der bereits um 17.30 Uhr in der Jahnhalle beginnt, erwartet die WKG-Zweite den ASV Boden. Wenn alle Wettkämpfer an Bord sind, dürfte sich ein spannendes Duell entwickeln. (RHZ13/NOV.35126 Rhein-Zeitung, 30.12.2013, S. 27; Erstmals in dieser Saison in Bestbesetzung)
+
+
+##Execute the following command, follow the instructions, and report in 2-5 sentences how far you got with it:
+telnet ateraan.com 4002
+
+I was able to run the command in Windows PowerShell, but not in the Git Bash. A game called "New Worlds Ateeran" showed up and I was supposed to enter my character name, but for some reason, it did not allow me to complete the action. 
